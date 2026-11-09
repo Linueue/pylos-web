@@ -82,7 +82,7 @@
             </div>
         </div>
         <div class="flex-[0.5] flex flex-col">
-            <div class="py-2">
+            <div class="py-1">
                 <span class="label-text">Tokens</span>
             </div>
             <div class="card overflow-y-auto max-h-full">

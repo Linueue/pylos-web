@@ -14,7 +14,7 @@
 
 <div bind:this={elem} class="card flex w-full p-2 px-5 bg-surface-50-950 my-1">
 {#if data.isErr}
-    <div class="text-red-600">
+    <div class="text-red-600 w-[70%]">
         {data.errorLog} at line {data.line}, column {data.column}
     </div>
 {:else}
